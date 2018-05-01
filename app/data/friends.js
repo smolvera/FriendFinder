@@ -1,0 +1,53 @@
+
+var friends = [
+    {
+        "name":"Ashley",
+        "photo":"https://scontent.fric1-2.fna.fbcdn.net/v/t1.0-9/26904441_1887128194662830_1919967004760872651_n.jpg?_nc_cat=0&oh=3d03c4cc1b53559aba65aeed6968f72d&oe=5B57A85C",
+        "scores":[
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+          ]
+      },
+      {
+        "name":"Alicia",
+        "photo":"https://scontent.fric1-2.fna.fbcdn.net/v/t1.0-9/24862661_10213110318487802_219210455055024943_n.jpg?_nc_cat=0&oh=95041b292482a5f73f4ba1e916c35c8b&oe=5B598DAF",
+        "scores":[
+            4,
+            1,
+            3,
+            3,
+            4,
+            1,
+            3,
+            1,
+            5,
+            3
+       ] 
+      },
+      {
+        "name":"Kita",
+        "photo":"https://scontent.fric1-2.fna.fbcdn.net/v/t1.0-9/24909695_10155057332523199_3394725674940159611_n.jpg?_nc_cat=0&oh=3e5a9f6c96e815ff25c8dbcf58882712&oe=5B6021AB",
+        "scores":[
+            3,
+            4,
+            2,
+            4,
+            1,
+            5,
+            4,
+            3,
+            4,
+            5
+          ]
+      } 
+];
+
+module.exports = friends;

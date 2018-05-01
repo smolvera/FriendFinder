@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FriendFinder</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Jquery Link -->
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <!-- Chosen Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+
+<body background="../image/sunset.jpg" style="color:white">
+    <div class="container">
+        <h2>Survey Questions</h2>
+        <hr>
+        <h3>
+            <strong>About You</strong>
+        </h3>
+        <h4>Name (Required)</h4>
+        <input type="text" name="" id="name" class="form-control" required>
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" name="" id="photo" class="form-control" required>
+        <hr>
+        <!-- Question 1 -->
+        <h3>
+            <strong>Question 1</strong>
+        </h3>
+        <h4>If you don’t call me in a day, you are upset with me?</h4>
+        <select data-placeholder="" class="chosen-select" id="q1" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!--Question 2 -->
+        <h3>
+            <strong>Question 2</strong>
+        </h3>
+        <h4>If I share a secret with you, it’s okay to share it with our other friends?</h4>
+        <select data-placeholder="" class="chosen-select" id="q2" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!-- Question 3 -->
+        <h3>
+            <strong>Question 3</strong>
+        </h3>
+        <h4>If my makeup is messed up, you will take me to the bathroom to fix it after calling me out in public?</h4>
+        <select data-placeholder="" class="chosen-select" id="q3" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!--Question 4  -->
+        <h3>
+            <strong>Question 4</strong>
+        </h3>
+        <h4>If my significant other makes a pass at you, you keep it a secret because you don’t want to cause issues in our friendship?</h4>
+        <select data-placeholder="" class="chosen-select" id="q4" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!--Question 5  -->
+        <h3>
+            <strong>Question 5</strong>
+        </h3>
+        <h4>My cat is sick but you hate cats, would you still come to the vet with me?</h4>
+        <select data-placeholder="" class="chosen-select" id="q5" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!--Question 6  -->
+        <h3>
+            <strong>Question 6</strong>
+        </h3>
+        <h4>A group of my friends gather together for my birthday but some of them you do not like, you still attend the gathering
+            and make friendly with everyone?</h4>
+        <select data-placeholder="" class="chosen-select" id="q6" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!-- Question 7 -->
+        <h3>
+            <strong>Question 7</strong>
+        </h3>
+        <h4>When you have a boyfriend or significant other, you no longer have time to hang out or go out?</h4>
+        <select data-placeholder="" class="chosen-select" id="q7" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!-- Question 8 -->
+        <h3>
+            <strong>Question 8</strong>
+        </h3>
+        <h4>I acted crazy and the next day when we are talking about the incident, you tell me about myself directly?</h4>
+        <select data-placeholder="" class="chosen-select" id="q8" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!-- Question 9 -->
+        <h3>
+            <strong>Question 9</strong>
+        </h3>
+        <h4>We are supposed to hang out this weekend but I don’t have any extra funds, you spot me until the next pay day?</h4>
+        <select data-placeholder="" class="chosen-select" id="q9" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <!--Question 10  -->
+        <h3>
+            <strong>Question 10</strong>
+        </h3>
+        <h4>My significant other is acting like a jerk, you advise me to leave him because I’m better off without him?</h4>
+        <select data-placeholder="" class="chosen-select" id="q10" style="color:black">
+            <option value=""></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br>
+        <br>
+        <!-- submit button -->
+        <button type="submit" class="btn btn-info btn-lg btn-block" id="submit">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <!-- need to add url for Heroku here -->
+                    <a href="#">Heroku API Link</a> |
+                    <a href="https://smolvera.github.io/FriendFinder/">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+    <!-- Modal -->
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">
+                        <strong> Best Match</strong>
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" src="https://scontent.fric1-2.fna.fbcdn.net/v/t1.0-9/19260299_10211658815441133_3894888488396716367_n.jpg?_nc_cat=0&oh=1dec4455cebfb929471ccc48c8c1ce2f&oe=5B5D8B7E"
+                        alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+        // var config = {
+        //     ".chosen-select": {},
+        //     ".chosen-select-deselect": {
+        //         allow_single_deselect: true
+        //     },
+        //     ".chosen-select-no-single": {
+        //         disabled_search_threshold: 10
+        //     },
+        //     ".chosen-select-no-results": {
+        //         no_results_text: "Oops, nothing found!"
+        //     },
+        //     "chosen-select-width": {
+        //         width: "95%"
+        //     }
+        // };
+        // for (var selector in config) {
+        //     $(selector).chosen(config[selector]);
+        // }
+        // captures the form input
+        $("#submit").on("click", function () {
+            event.preventDefault();
+
+            // if data from the form is blank, then the form wont be validated
+            function validateForm() {
+                var isValid = true;
+                $(".form-control").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                $(".chosen-select").each(function () {
+                    if ($(this).val() === "") {
+                        isValid = false;
+                    }
+                });
+                // otherwise, there is data in each section and form is valid
+                return isValid;
+            }
+            // gets all the info the user put in the survey
+            if (validateForm()) {
+                var userData = {
+                    name: $("#name").val(),
+                    photo: $("#photo").val(),
+                    scores: [
+                        $("#q1").val(),
+                        $("#q2").val(),
+                        $("#q3").val(),
+                        $("#q4").val(),
+                        $("#q5").val(),
+                        $("#q6").val(),
+                        $("#q7").val(),
+                        $("#q8").val(),
+                        $("#q9").val(),
+                        $("#q10").val(),
+                    ]
+                };
+                // Grabs the Url of the website
+                var currentURL = window.location.origin;
+                console.log(currentURL);
+                $.post(currentURL + "/api/friends", userData, function (data) {
+                    alert("working");
+                    $("#match-name").text(data.name);
+                    $("#match-img").attr("src", data.photo);
+                    $("#results-modal").modal("toggle");
+                });
+                //clears form after submission
+                $('#name').val("");
+                $('#photo').val("");
+                $('#q1').val("");
+                $('#q2').val("");
+                $('#q3').val("");
+                $('#q4').val("");
+                $('#q5').val("");
+                $('#q6').val("");
+                $('#q7').val("");
+                $('#q8').val("");
+                $('#q9').val("");
+                $('#q10').val("");
+
+            } else {
+                alert("Please fill out all fields before submitting!")
+            }
+        });
+    </script>
+</body>
+
+</html>
